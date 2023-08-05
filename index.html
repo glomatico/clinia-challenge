@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="header__content">
+                <h1 id="header__content__title">
+                    <a id=header__content__title__link href="index.html">
+                        Livros
+                    </a>
+                </h1>
+                <nav>
+                    <ul id=header__content__menu>
+                        <li class="header__content__menu__item">
+                            <a class="header__content__menu__item__link" href="index.html">
+                                Home
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="books">
+            <div class=container>
+                <div id="books__content">
+                    <ul id=books__content__menu>
+                        <li class="books__content__menu__item">
+                            <button class="books__content__menu__item__button" data-action="all">
+                                Livros
+                            </button>
+                        </li>
+                        <li class="books__content__menu__item">
+                            <button class="books__content__menu__item__button" data-action="favorites">
+                                Favoritos
+                            </button>
+                        </li>
+                    </ul>
+                    <h1 id="books__content__warning"></h1>
+                    <div id="books__content__shelf"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div id="footer__content">
+                <p id="footer__content__text">
+                    Desenvolvido por Glomatico ;&#41;
+                </p>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
